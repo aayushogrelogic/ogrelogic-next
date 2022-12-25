@@ -5,7 +5,7 @@ import ExploreOurWork from "./component/ExploreOurWork";
 import IndustriesWeServed from "./component/IndustriesWeServed";
 import Approach from "./component/Approach";
 import Clients from "./component/Clients";
-import Footer from "./component/footer";
+import Footer from "./component/Footer";
 import Newsletter from "./component/Newsletter";
 import Message from "./component/Message";
 import Innovation from "./component/Innovation";
