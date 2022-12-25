@@ -1,0 +1,287 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'ttfirsNeuebold';
+  src: url('./fonts/TTFirsNeue-Bold.woff2') format('woff2'),
+       url('./fonts/TTFirsNeue-ExtraBold.woff') format('woff');
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: 'ttfirsNeuesemibold';
+  src: url('./fonts/TTFirsNeue-DemiBold.woff2') format('woff2'),
+       url('./fonts/TTFirsNeue-DemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: semibold;
+}
+@font-face {
+  font-family: 'montRegular';
+  src: url('./fonts/Mont-Regular.woff2') format('woff2'),
+       url('./fonts/Mont-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: regular;
+}
+@font-face {
+  font-family: 'montSemibold';
+  src: url('./fonts/Mont-SemiBold.woff2') format('woff2'),
+       url('./fonts/Mont-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: semibold;
+}
+@font-face {
+  font-family: 'montbold';
+  src: url('./fonts/Mont-Bold.woff2') format('woff2'),
+       url('./fonts/Mont-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: bold;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+#scrollbarColor::-webkit-scrollbar
+{
+  width: 0px;
+  background-color: transparent;
+}
+.active-tab h2{
+  color: #313D5A;
+}
+.active-tab p{
+  color: #000000;
+}
+.newsletter-input input{
+  width: 100%;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 10px;
+  background-color: transparent;
+}
+.innovate-tab-active{
+  color: #ffffff;
+  border-bottom: 4px solid #ffffff;
+}
+.newsletter-input input:focus-visible{
+  outline: none;
+}
+.explore-background{
+  background-image: url(../public/work-background.png);
+  background-repeat: no-repeat;
+}
+.newsletter-background{
+  background-image: url(../public/logo-back-right.png);
+  background-repeat: no-repeat;
+}
+.carousel .control-next.control-arrow{
+  background-image: url(../public/arrow-right-carousel.png) !important;
+  background-repeat: no-repeat !important;
+  background-position-y: center !important;
+}
+.carousel .control-prev.control-arrow{
+  background-image: url(../public/arrow-left-carousel.png) !important;
+  background-repeat: no-repeat !important;
+  background-position-y: center !important;
+}
+.carousel .control-prev.control-arrow:before{
+  border:none;
+}
+.carousel .control-next.control-arrow:before{
+  border:none;
+}
+.swiper-logo{
+  background-image: url(../public/background-logo.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+.client-active-tab h5{
+  color: #313D5A;
+  border-bottom: 4px solid #313D5A;
+}
+button.control-arrow.control-prev {
+  opacity: 1 !important;
+  position: absolute !important;
+  width: 62px !important;
+  top: 68% !important;
+  left: 6% !important;
+  height: 22px !important;
+}
+button.control-arrow.control-next {
+  position: absolute !important;
+  width: 62px !important;
+  height: 22px !important;
+  top: 68% !important;
+  left: 11% !important;
+  opacity: 1 !important;
+}
+.carousel .control-next.control-arrow:before {
+  border-left: 0px solid #fff !important;
+}
+.carousel .control-disabled.control-arrow{
+  display: block !important;
+}
+.carousel .control-prev.control-arrow:before {
+  border-right: none !important;
+}
+/* media query */
+@media screen and (min-width:1600px){
+  button.control-arrow.control-next{
+    top: 68% !important;
+    left: 11% !important;
+  }
+  button.control-arrow.control-prev{
+    top: 68% !important;
+    left: 6% !important;
+  }
+}
+@media screen and (max-width:1600px){
+  button.control-arrow.control-next{
+    top: 75% !important;
+    left: 17% !important;
+  }
+  button.control-arrow.control-prev {
+    top: 75% !important;
+    left: 11% !important;
+  }
+}
+@media screen and (max-width:1280px){
+  button.control-arrow.control-next{
+    top: 78% !important;
+  }
+  button.control-arrow.control-prev {
+    top: 78% !important;
+  }
+}
+@media screen and (max-width:1024px){
+  button.control-arrow.control-next{
+    top: 10% !important;
+    left: 75% !important;
+  }
+  button.control-arrow.control-prev {
+    top: 10% !important;
+    left: 65% !important;
+  }
+}
+@media screen and (max-width:640px){
+  .carousel .control-next.control-arrow{
+    background-size: 40px !important;
+  }
+  .carousel .control-prev.control-arrow{
+    background-size: 40px !important;
+  }
+  button.control-arrow.control-next{
+    left: 85% !important;
+    top: 25% !important;
+  }
+  button.control-arrow.control-prev {
+    top: 25% !important;
+    left: 75% !important;
+  }
+}
+@media screen and (max-width:475px){
+  button.control-arrow.control-next{
+    left: 85% !important;
+    top: 30% !important;
+  }
+  button.control-arrow.control-prev {
+    top: 30% !important;
+    left: 65% !important;
+  }
+}
+/* media query ends */
+/* animation starts */
+.carousel .carousel-status{
+  display:none;
+}
+.carousel .control-dots{
+  display: none;
+}
+.carousel .thumbs-wrapper{
+  display: none;
+}
+.shutter{
+  animation: animate-shutter 0.5s ease-in ;
+}
+.fade-in-menu{
+  animation: animate-fadding-first 1.3s ease-in;
+}
+.shutter-second{
+  animation: animate-fadding-second 1.3s ease-in;
+}
+.circle-rotate{
+  animation: animate-rotate-infinity 7s linear infinite;
+}
+.slide.selected .animate-slide{
+  animation: animation-slider-effect 2s ease;
+}
+.slide.selected .animate-slide-text{
+  animation: animation-slide-text-effect 2s ease;
+}
+@keyframes animation-slide-text-effect{
+  0%{
+    transform:translateY(30px);
+    opacity: 0;
+  }
+  100%{
+    transform:translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes animation-slider-effect{
+  0%{
+    transform:translateX(50px);
+    opacity: 0;
+  }
+  100%{
+    transform:translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes animate-rotate-infinity{
+  0%{
+      transform: rotateZ(0deg);
+  }
+  100%{
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes animate-shutter{
+  0%{
+      clip-path: circle(0% at 0 0);
+      opacity: 0;
+  }
+  100%{
+      clip-path: circle(200% at 0 0);
+      opacity: 1;
+  }
+}
+@keyframes animate-fadding-first{
+  0%{
+      transform: translateY(20px);
+      opacity: 0;
+  }
+  100%{
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+@keyframes animate-fadding-second{
+  0%{
+      transform: translateY(40px);
+      opacity: 0;
+  }
+  100%{
+      transform: translateY(-50px);
+      opacity: 1;
+  }
+}
