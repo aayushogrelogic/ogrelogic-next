@@ -18,7 +18,7 @@ function ExploreOurWork(){
                                     <h5 className="px-3 font-bold text-left font-ttfirsNeueFontBold text-base xl:text-lg 2xl:text-xl xl:leading-6 2xl:leading-[25.8px] text-white py-4">View Case Study</h5>
                                 </div>
                                 <div className="animate-slide lg:max-w-[634px] xl:max-w-[882px] 2xl:max-w-[1421px]">
-                                    <Image src="sleep-solution-image.webp" alt="sleep-solution-image" width="1421" height="804" loading="lazy"/>
+                                    <img src="sleep-solution-image.webp" alt="sleep-solution-image" width="1421" height="804" loading="lazy"/>
                                 </div>
                             </div>
                         </div>
@@ -30,14 +30,14 @@ function ExploreOurWork(){
                                     <h5 className="px-3 font-bold text-left font-ttfirsNeueFontBold text-base xl:text-lg 2xl:text-xl xl:leading-6 2xl:leading-[25.8px] text-white py-4">View Case Study</h5>
                                 </div>
                                 <div className="animate-slide lg:max-w-[634px] xl:max-w-[882px] 2xl:max-w-[1421px]">
-                                    <Image src="sleep-solution-image.webp" alt="sleep-solution-image" width="1421" height="804" loading="lazy"/>
+                                    <img src="sleep-solution-image.webp" alt="sleep-solution-image" width="1421" height="804" loading="lazy"/>
                                 </div>
                             </div>
                         </div>
                         </Carousel>
                     </div>
                     {/* <div className="absolute top-0 left-0 w-full h-full">
-                        <Image src="work-background.png" alt="work-background" width="915" height="1107" loading="lazy"/>
+                        <img src="work-background.png" alt="work-background" width="915" height="1107" loading="lazy"/>
                     </div> */}
                 </div>
             </section>

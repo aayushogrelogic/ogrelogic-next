@@ -37,20 +37,20 @@ function Footer(){
                             </ul>
                         </div>
                         <div className="flex justify-end items-start mt-3 md:mt-0">
-                            <a href="#" className="max-w-fit font-montFontSemiBold font-semibold text-base xl:text-lg 2xl:text-xl leading-[25px] text-blue italic flex items-center "><span className="px-[2px]"><Image src="top.png" alt="top" width="10" height="14" loading="lazy"/></span>Back to top!</a>
+                            <a href="#" className="max-w-fit font-montFontSemiBold font-semibold text-base xl:text-lg 2xl:text-xl leading-[25px] text-blue italic flex items-center "><span className="px-[2px]"><img src="top.png" alt="top" width="10" height="14" loading="lazy"/></span>Back to top!</a>
                         </div>
                     </div>
                     <div className="flex justify-center md:justify-end items-center pb-3 z-20">
-                        <a href="#" className="pr-[25px] md:pr-3 lg:pr-4 xl:pr-5 2xl:pr-[25px]"><Image src="facebook-social.png" alt="facebook-social" width="24" height="24" loading="lazy"/></a>
-                        <a href="#" className="pr-[25px] md:pr-3 lg:pr-4 xl:pr-5 2xl:pr-[25px]"><Image src="twitter-social.png" alt="twitter-social" width="24" height="24" loading="lazy"/></a>
-                        <a href="#" className="pr-[25px] md:pr-3 lg:pr-4 xl:pr-5 2xl:pr-[25px]"><Image src="linkedin-social.png" alt="linkedin-social" width="24" height="24" loading="lazy"/></a>
-                        <a href="#" className="pr-[25px] md:pr-3 lg:pr-4 xl:pr-5 2xl:pr-[25px]"><Image src="instagram-social.png" alt="instagram-social" width="24" height="24" loading="lazy"/></a>
-                        <a href="#" className="pr-[25px] md:pr-3 lg:pr-4 xl:pr-5 2xl:pr-[25px]`"><Image src="pinterest-social.png" alt="pinterest-social" width="24" height="24" loading="lazy"/></a>
-                        <a href="#"><Image src="youtube-social.png" alt="youtube-social" width="24" height="24" loading="lazy"/></a>
+                        <a href="#" className="pr-[25px] md:pr-3 lg:pr-4 xl:pr-5 2xl:pr-[25px]"><img src="facebook-social.png" alt="facebook-social" width="24" height="24" loading="lazy"/></a>
+                        <a href="#" className="pr-[25px] md:pr-3 lg:pr-4 xl:pr-5 2xl:pr-[25px]"><img src="twitter-social.png" alt="twitter-social" width="24" height="24" loading="lazy"/></a>
+                        <a href="#" className="pr-[25px] md:pr-3 lg:pr-4 xl:pr-5 2xl:pr-[25px]"><img src="linkedin-social.png" alt="linkedin-social" width="24" height="24" loading="lazy"/></a>
+                        <a href="#" className="pr-[25px] md:pr-3 lg:pr-4 xl:pr-5 2xl:pr-[25px]"><img src="instagram-social.png" alt="instagram-social" width="24" height="24" loading="lazy"/></a>
+                        <a href="#" className="pr-[25px] md:pr-3 lg:pr-4 xl:pr-5 2xl:pr-[25px]`"><img src="pinterest-social.png" alt="pinterest-social" width="24" height="24" loading="lazy"/></a>
+                        <a href="#"><img src="youtube-social.png" alt="youtube-social" width="24" height="24" loading="lazy"/></a>
                     </div>
                     <div className="relative after:absolute after:content-[''] after:w-full after:border-b after:border-blue after:top-1/2 after:-translate-y-2/4 after:-z-10 md:-mt-6 -z-10"> 
                         <div className="max-w-[350px] m-auto bg-white z-10">
-                            <a href="#" className="max-w-[190px] 2xl:max-w-[228px] m-auto"><Image src="Logo.png" alt="Logo" width="" height="" loading="lazy" className="m-auto"/></a>
+                            <a href="#" className="max-w-[190px] 2xl:max-w-[228px] m-auto"><img src="Logo.png" alt="Logo" width="" height="" loading="lazy" className="m-auto"/></a>
                         </div>
                     </div>
                     <div className="font-montFontSemiBold font-semibold text-sm xl:text-base 2xl:text-lg leading-[25px] text-blue pb-4 flex flex-wrap justify-between items-center px-3 mt-3 md:mt-0">

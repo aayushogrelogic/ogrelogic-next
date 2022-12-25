@@ -10,7 +10,7 @@ function Clients(){
                 <div className="swiper-logo bg-contain pt-8 sm:pt-9 md:pt-10 lg:pt-11 xl:pt-12 2xl:pt-[60px]">
                     <div>
                         <div>
-                            <Image src="client-swiper-1.webp" alt="client-swiper-1" width="400" height="789" className="m-auto"/>
+                            <img src="client-swiper-1.webp" alt="client-swiper-1" width="400" height="789" className="m-auto"/>
                         </div>
                         <h5 className="font-ttfirsNeueFontBold font-bold text-xl sm:text-2xl md:text-[26px] lg:text-3xl xl:text-4xl 2xl:text-[40px] lg:leading-8 xl:leading-9 2xl:leading-10 text-center pt-[35px]">Mike Richard</h5>
                     </div>
@@ -34,7 +34,7 @@ function Clients(){
                     <div className="md:col-span-2">
                         <div className="flex flex-wrap items-start justify-between ">
                             <div className="max-w-[180px] lg:max-w-[200px] xl:max-w-[230px] 2xl:max-w-[268px] my-5 md:mt-0 lg:mb-0">
-                                <Image src="client-testimonial.png" alt="client-testimonial" width="268" height="251"/>
+                                <img src="client-testimonial.png" alt="client-testimonial" width="268" height="251"/>
                             </div>
                             <p className="sm:max-w-[400px] lg:max-w-[435px] xl:max-w-[532px] 2xl:max-w-[717px] font-medium text-base md:text-lg lg:text-xl xl:text-[22px] 2xl:text-[25px] lg:leading-8 xl:leading-9 2xl:leading-[40px] font-montFontRegular">OgreLogic Solutions was a great help from start to finish. I have looked for a web master to help me for months and when I found this company and spoke to them about there service and how they can help me, I know I found the right service to help me. And what I really like about OgreLogic is when I have a question they are there for me. I highly recommend this service.</p>
                         </div>
