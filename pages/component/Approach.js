@@ -17,7 +17,7 @@ function Approach(){
                     <div className="flex justify-end">
                         <div className="max-w-[718px] lg:max-w-[490px] xl:max-w-[580px] 2xl:max-w-[718px] w-full flex flex-wrap items-center justify-between">
                             <img src="startup-image.png" alt="startup-image" width="218" height="201" loading="lazy"/>
-                            <p className="text-lg md:text-xl xl:text-[22px] 2xl:text-[25px] 2xl:leading-9 font-montFontRegular font-medium max-w-[457px] lg:max-w-[260px] xl:max-w-[303px] 2xl:max-w-[457px]">We address all design and technical challenges, identify any risk areas, and create a sound foundation for your product based on budget, timeline, and technology. We deliver your product blueprint, complete with the app's architecture.</p>
+                            <p className="text-lg md:text-xl xl:text-[22px] 2xl:text-[25px] 2xl:leading-9 font-montFontRegular font-medium max-w-[457px] lg:max-w-[260px] xl:max-w-[303px] 2xl:max-w-[457px]">We address all design and technical challenges, identify any risk areas, and create a sound foundation for your product based on budget, timeline, and technology. We deliver your product blueprint, complete with the apps architecture.</p>
                         </div>
                     </div>
                 </div>
