@@ -13,7 +13,7 @@ function Newsletter(){
                         <input type="name" placeholder="Name" className="max-w-[300px] xs:max-w-[460px] sm:max-w-[620px] lg:max-w-[280px] md:max-w-[340px] xl:max-w-[350px] 2xl:max-w-[441.43px]"/>
                         <input type="email" placeholder="Email" className="my-2 lg:my-2 max-w-[300px] xs:max-w-[460px] sm:max-w-[620px] md:max-w-[340px] lg:max-w-[280px] xl:max-w-[350px] 2xl:max-w-[441.43px]"/>
                         <input type="text" placeholder="Message" className=" my-2 lg:my-2 max-w-[300px] xs:max-w-[460px] sm:max-w-[620px] md:max-w-[340px] lg:max-w-[280px] xl:max-w-[350px] 2xl:max-w-[441.43px]"/>
-                        <button type="submit" className="my-2 lg:my-2 max-w-[45px] lg:max-w-[60px] xl:max-w-[70px] 2xl:max-w-[88px]"><img src="arrow-submit.png" alt="arrow-submit" width="88" height="32" loading="lazy"/></button>
+                        <button type="submit" className="my-2 lg:my-2 max-w-[45px] lg:max-w-[60px] xl:max-w-[70px] 2xl:max-w-[88px]"><Image src="arrow-submit.png" alt="arrow-submit" width="88" height="32" loading="lazy"/></button>
                     </div>
                 </div>
             </section>

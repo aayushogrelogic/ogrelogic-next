@@ -15,19 +15,19 @@ function IndustriesWeServed(){
                 <div className="grid md:grid-cols-2">
                     <div className="py-5 md:py-0 md:m-auto w-full">
                         <div className='industry-image active-image' id='tab1'>
-                            <img src="edTech.webp" alt="edTech" width="734" height="423" loading="lazy"/>
+                            <Image src="edTech.webp" alt="edTech" width="734" height="423" loading="lazy"/>
                         </div>
                         <div className='industry-image hidden' id='tab2'>
-                            <img src="edTech.webp" alt="edTech" width="734" height="423" loading="lazy"/>
+                            <Image src="edTech.webp" alt="edTech" width="734" height="423" loading="lazy"/>
                         </div>
                         <div className='industry-image hidden' id='tab3'>
-                            <img src="edTech.webp" alt="edTech" width="734" height="423" loading="lazy"/>
+                            <Image src="edTech.webp" alt="edTech" width="734" height="423" loading="lazy"/>
                         </div>
                         <div className='industry-image hidden' id="tab4">
-                            <img src="edTech.webp" alt="edTech" width="734" height="423" loading="lazy"/>
+                            <Image src="edTech.webp" alt="edTech" width="734" height="423" loading="lazy"/>
                         </div>
                         <div className='industry-image hidden' id="tab5">
-                            <img src="edTech.webp" alt="edTech" width="734" height="423" loading="lazy"/>
+                            <Image src="edTech.webp" alt="edTech" width="734" height="423" loading="lazy"/>
                         </div>
                     </div>
                     <div className="">

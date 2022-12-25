@@ -17,35 +17,35 @@ function Innovation(){
                     </div>
                     <div className="grid grid-cols-2 md:pl-6 lg:pl-12 xl:pl-16 2xl:pl-[78px] py-6 md:py-1 lg:py-9 2xl:py-28 px-3">
                         <div className="innovative-images py-8 flex items-center">
-                            <img src="ios.png" alt="ios" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
+                            <Image src="ios.png" alt="ios" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
                             <p className="text-lg sm:text-[22px] md:text-2xl lg:text-[26px] xl:text-[28px] 2xl:text-3xl lg:leading-8 xl:leading-9 2xl:leading-10 pl-1 md:pl-4 lg:pl-5 xl:pl-6 2xl:pl-[38px]">iOS</p>
                         </div>
                         <div className="innovative-images py-8 flex items-center">
-                            <img src="android.png" alt="android" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
+                            <Image src="android.png" alt="android" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
                             <p className="text-lg sm:text-[22px] md:text-2xl lg:text-[26px] xl:text-[28px] 2xl:text-3xl lg:leading-8 xl:leading-9 2xl:leading-10 pl-1 md:pl-4 lg:pl-5 xl:pl-6 2xl:pl-[38px]">Android</p>
                         </div>
                         <div className="innovative-images py-8 flex items-center">
-                            <img src="react.png" alt="react" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
+                            <Image src="react.png" alt="react" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
                             <p className="text-lg sm:text-[22px] md:text-2xl lg:text-[26px] xl:text-[28px] 2xl:text-3xl lg:leading-8 xl:leading-9 2xl:leading-10 pl-1 md:pl-4 lg:pl-5 xl:pl-6 2xl:pl-[38px]">React native</p>
                         </div>
                         <div className="innovative-images py-8 flex items-center">
-                            <img src="flutte.png" alt="flutte" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
+                            <Image src="flutte.png" alt="flutte" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
                             <p className="text-lg sm:text-[22px] md:text-2xl lg:text-[26px] xl:text-[28px] 2xl:text-3xl lg:leading-8 xl:leading-9 2xl:leading-10 pl-1 md:pl-4 lg:pl-5 xl:pl-6 2xl:pl-[38px]">Flutter</p>
                         </div>
                         <div className="innovative-images py-8 flex items-center">
-                            <img src="ionic.png" alt="ionic" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
+                            <Image src="ionic.png" alt="ionic" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
                             <p className="text-lg sm:text-[22px] md:text-2xl lg:text-[26px] xl:text-[28px] 2xl:text-3xl lg:leading-8 xl:leading-9 2xl:leading-10 pl-1 md:pl-4 lg:pl-5 xl:pl-6 2xl:pl-[38px]">Ionic</p>
                         </div>
                         <div className="innovative-images py-8 flex items-center">
-                            <img src="swift.png" alt="swift" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
+                            <Image src="swift.png" alt="swift" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
                             <p className="text-lg sm:text-[22px] md:text-2xl lg:text-[26px] xl:text-[28px] 2xl:text-3xl lg:leading-8 xl:leading-9 2xl:leading-10 pl-1 md:pl-4 lg:pl-5 xl:pl-6 2xl:pl-[38px]">Swift</p>
                         </div>
                         <div className="innovative-images py-8 flex items-center">
-                            <img src="kotlin.png" alt="kotlin" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
+                            <Image src="kotlin.png" alt="kotlin" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
                             <p className="text-lg sm:text-[22px] md:text-2xl lg:text-[26px] xl:text-[28px] 2xl:text-3xl lg:leading-8 xl:leading-9 2xl:leading-10 pl-1 md:pl-4 lg:pl-5 xl:pl-6 2xl:pl-[38px]">Kotlin</p>
                         </div>
                         <div className="innovative-images py-8 flex items-center">
-                            <img src="onjectivec.png" alt="onjectivec" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
+                            <Image src="onjectivec.png" alt="onjectivec" width="52" height="65" loading="lazy" className="max-w-[40px] md:max-w-[50px] xl:max-w-[55px] 2xl:max-w-[67px] w-full"/>
                             <p className="text-lg sm:text-[22px] md:text-2xl lg:text-[26px] xl:text-[28px] 2xl:text-3xl lg:leading-8 xl:leading-9 2xl:leading-10 pl-1 md:pl-4 lg:pl-5 xl:pl-6 2xl:pl-[38px]">Objectivec</p>
                         </div>
                     </div>
