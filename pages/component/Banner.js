@@ -6,7 +6,7 @@ function Banner(){
                 <div className="grid md:grid-cols-2 items-center">
                     <div className="">
                     <h1 className="text-blue text-4xl sm:text-6xl md:text-5xl lg:leading-[75px] xl:leading-[85px] 2xl:leading-[105px] lg:text-7xl xl:text-[80px] 2xl:text-[104px] font-bold font-ttfirsNeueFontBold max-w-[719px] py-3">Mobile App<br></br>Design and<br></br> Development</h1>
-                    <h4 className="font-semibold text-lg sm:text-[22px] md:text-2xl lg:text-[26px] xl:text-[28px] 2xl:text-3xl xl:leading-8 2xl:leading-[38.34px] max-w-[719px] py-2 2xl:py-[31px] font-montFontRegular">Developing top-notch, innovative mobile apps customized to your vision</h4>
+                    <h4 className="font-semibold text-lg sm:text-[22px] md:text-2xl lg:text-[26px] xl:text-[28px] 2xl:text-3xl xl:leading-8 2xl:leading-[38.34px] max-w-[719px] py-2 2xl:py-[31px] font-montFontRegular">Developing top notch  innovative mobile apps customized to your vision</h4>
                     <h3 className="text-base xl:text-lg 2xl:text-xl xl:leading-6 2xl:leading-[25.8px] font-bold font-ttfirsNeueFontBold py-1">Lets Talk</h3>
                     </div>
                     <div className="relative m-auto pt-5">
